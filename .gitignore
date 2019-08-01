@@ -1,3 +1,7 @@
+# Webpack
+public/css/app.css
+public/js/app.js
+
 /node_modules
 /public/storage
 /public/hot
@@ -8,3 +12,11 @@ Homestead.json
 Homestead.yaml
 .env
 .phpintel
+
+# logical link
+env
+
+# Eclipse IDE
+.buildpath
+.project
+.settings/
