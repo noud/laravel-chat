@@ -1,4 +1,12 @@
 const { mix } = require('laravel-mix');
+var path = require('path');
+
+mix.webpackConfig({
+	output: {
+		path: path.resolve(__dirname, 'public'),
+		filename: '[name].js',
+	}
+});
 
 /*
  |--------------------------------------------------------------------------
