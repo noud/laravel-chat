@@ -1,3 +1,4 @@
+import Pusher from "pusher-js";
 
 window._ = require('lodash');
 
